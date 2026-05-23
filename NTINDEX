@@ -1,4 +1,9 @@
 # Nexterm source manifest for Saint Denis Enterprises
 # Format: <relative/path>@<md5hash>   (hash is a change-detection cache only)
-# Add one line per script/snippet below.
+# Every synced file MUST be listed here. Extensions: scripts .sh/.bash/.zsh/.fish/.ps1 ; snippets .txt/.snippet/.cmd
+claude-health.sh@ed0f5a72427ac1770e359053d23c88f6
+claude-new.snippet@f5e3b2cd632701581ff00dfd093aae38
+claude-restart.snippet@1751b734413bf0de93c5fbc411f320e9
+claude-status.snippet@3154e467c53c0c1f2c920e011b2070a8
+host-quickinfo.sh@a57a91ed1c96bccd03164b0022592186
 jump02-claude.snippet@10750a37c6739199df213a8a45ca050d
