@@ -1,0 +1,3 @@
+# @name: Claude Code on JUMP-02 (screen)
+# @description: Attach to the persistent Claude Code screen session on JUMP-02. Starts claude-screen.service if needed and waits for the session. Detach with Ctrl-a then d.
+SESSION=claude; UNIT=claude-screen.service; systemctl --user is-active --quiet "$UNIT" || systemctl --user start "$UNIT"; for i in 1 2 3 4 5; do screen -ls 2>/dev/null | grep -q "[.]$SESSION[[:space:]]" && break; sleep 1; done; screen -dr "$SESSION"

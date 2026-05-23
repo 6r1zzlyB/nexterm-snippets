@@ -1,0 +1,4 @@
+# Nexterm source manifest for Saint Denis Enterprises
+# Format: <relative/path>@<md5hash>   (hash is a change-detection cache only)
+# Add one line per script/snippet below.
+jump02-claude.snippet@10750a37c6739199df213a8a45ca050d
